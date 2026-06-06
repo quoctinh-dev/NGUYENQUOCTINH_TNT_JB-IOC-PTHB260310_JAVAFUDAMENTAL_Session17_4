@@ -3,18 +3,13 @@ package com.stu.shop_management.entity;
 public class Customer {
 
     private Long customerId;
-
     private String customerName;
-
     private String email;
 
     public Customer() {
     }
 
-    public Customer(Long customerId,
-                    String customerName,
-                    String email) {
-
+    public Customer(Long customerId, String customerName, String email) {
         this.customerId = customerId;
         this.customerName = customerName;
         this.email = email;

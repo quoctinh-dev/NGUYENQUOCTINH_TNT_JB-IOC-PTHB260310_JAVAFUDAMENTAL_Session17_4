@@ -6,21 +6,14 @@ import java.sql.Date;
 public class Order {
 
     private Long orderId;
-
     private Long customerId;
-
     private Date orderDate;
-
     private BigDecimal totalAmount;
 
     public Order() {
     }
 
-    public Order(Long orderId,
-                 Long customerId,
-                 Date orderDate,
-                 BigDecimal totalAmount) {
-
+    public Order(Long orderId, Long customerId, Date orderDate, BigDecimal totalAmount) {
         this.orderId = orderId;
         this.customerId = customerId;
         this.orderDate = orderDate;
